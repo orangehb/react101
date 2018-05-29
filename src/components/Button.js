@@ -25,6 +25,6 @@ const Button = styled.button`
 
 export default class extends Component {
  render() {
-   return <Button>{this.props.children}</Button>
+   return <Button onClick={this.props.onClick}>{this.props.children}</Button>
  }
 }
